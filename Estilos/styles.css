@@ -1,0 +1,31 @@
+h1 {
+    color: brown;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    color: #332929;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#parrafo1 {
+    color: blue;
+    font-size: 20px;
+}
+
+#logo {
+    width: 160px;
+    height: 100px;
+    background-color: #c3e2ff;
+    border-radius: 10px;
+}
+
+.tipos {
+    color: yellowgreen;
+    font-weight: bold;
+}
+
+a {
+    color: coral;
+    text-decoration: none;
+}

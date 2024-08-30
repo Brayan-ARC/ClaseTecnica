@@ -1,0 +1,122 @@
+body {
+    height: 100vh; /* Asegura que el body ocupe toda la altura de la pantalla */
+    margin: 150px; /* Elimina márgenes */
+    display: flex; /*Bloque flexible*/
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    flex-direction: column; /* Para que el texto y la tabla estén uno debajo del otro */
+}
+
+.titulo1 {
+    font-size: 40px;
+    font-family: Verdana;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+}
+
+.titulo2 {
+    font-size: 16px;
+    font-family: Verdana;
+    font-weight: bold;
+    font-style: normal;
+}
+
+td {
+    font-size: 14px;
+    font-family: Verdana;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.atributo1 {
+    color: red;
+}
+
+.atributo2 {
+    font-size: 20px;
+}
+
+.atributo3 {
+    background: yellow;
+}
+
+.atributo4 {
+    border: 2px solid rgb(0, 119, 255);
+}
+
+.atributo5 {
+    margin: 20px;
+}
+
+.atributo6 {
+    padding: 20px;
+}
+
+.atributo7 {
+    text-align: center;
+}
+
+.atributo8 {
+    display: flex;
+}
+
+.atributo10 {
+    height: 50px;
+}
+
+.atributo11 {
+    border-radius: 10px;
+}
+
+.atributo12 {
+    box-shadow: 5px 5px 10px gray;
+}
+
+.atributo13 {
+    opacity: 0.5;
+}
+
+.atributo14 {
+    font-weight: bold;
+}
+
+.atributo15 {
+    text-transform: uppercase;
+}
+
+.atributo16 {
+    line-height: 1.5;
+}
+
+.atributo17 {
+    float: right;
+}
+
+.atributo18 {
+    position: absolute; top: 870px; left: 850px;
+}
+
+.atributo21 {
+    opacity: 0.3;
+}
+
+.atributo22 {
+    cursor: pointer;
+}
+
+.atributo23 {
+    text-decoration: underline;
+}
+
+.atributo24 {
+    transition: all 0.9s ease-in-out;
+}
+
+.atributo25 {
+    transform: rotate(1deg);
+}
+
+.atributo26 {
+    background-size: cover;
+}
