@@ -1,0 +1,74 @@
+/*Estilos para el menú de navegación*/
+.navbar {
+    display: flex; /*Se utiliza para distribuir el contenido de manera horizontal*/
+    justify-content: space-between; /*Espacio entre los elementos a lo largo del eje principal*/
+    align-items: center; /*Alinea los elementos verticalmente*/
+    background-color: #0f1626; /*Color de fondo*/
+    padding: 20px; /*Espacio entre los elementos*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Estilos para logo*/
+.logo a{
+    color: antiquewhite; /*Color del texto "Logo"*/
+    text-decoration: none; /*Elimina el subrayado*/
+    font-size: 24px; /*Tamaño de la fuente*/
+}
+
+.nav-links{
+    list-style: none; /*Elimina los puntos de la lista*/
+    display: flex; /*Se utiliza para distribuir el contenido de manera horizontal*/
+    gap: 25px; /*Espacio que hay entre cada uno de los enlaces*/
+}
+
+.nav-links li a{
+    color: antiquewhite; /*Color del texto*/
+    text-decoration: none; /*Elimina el subrayado*/
+    padding: 8px 15px; /*Espacio entre elementos X Y*/
+}
+
+.dropdown {
+    position: relative; /*Posiciona el contenedor del menú desplegable*/
+}
+
+.dropdown-content a{
+    padding: 5px 10px; /*Espacio entre elementos X Y*/
+    text-decoration: none; /*Elimina el subrayado*/
+    display: block; /*Enlaces ocupen todo el ancho del contenido*/
+}
+
+.dropdown-content {
+    display: none; /* Oculta el contenido del dropdown por defecto */
+    position: absolute; /* Posiciona el contenido del dropdown de forma absoluta respecto a su contenedor */
+    background-color: #0545db; /* Color de fondo del contenido del dropdown en blanco */
+    min-width: 90px; /* Ancho mínimo del contenido del dropdown */
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); /* Sombra alrededor del dropdown para dar un efecto de profundidad */
+}
+
+/*Muestra el contenido del menú desplegable al pasar el cursor por encima*/
+.dropdown:hover .dropdown-content{
+    display: block; /*Muestra el contenido cuando el cursor entra sobre el dropdown*/
+}
+
+.nav-links li a:hover{
+    background-color: #0a318b; /*Color de fondo al pasar el cursor*/
+    border-radius: 10px; /*Bordes redondeados del fondo al pasar el cursor*/
+}
+
+.buscar {
+    padding: 5px 10px; /*Espacio entre elementos X Y*/
+    border-radius: 10px; /*Bordes redondeados del fondo al pasar el cursor*/
+}
+
+.boton {
+    background-color: antiquewhite;
+    color: #0f1626;
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.boton:hover{
+    background-color: #0a318b;
+    color: antiquewhite;
+}
