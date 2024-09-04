@@ -1,0 +1,69 @@
+body {
+    background-color: #e7e7e7;
+    margin: 0; /* Elimina la margen que viene predeterminada */
+    padding: 0; /* Elimina los espacios */
+}
+
+.container {
+    display: flex; /* Organiza los hijos de forma flexible */
+    flex-direction: column; /* Alinea los elementos en columna */
+    align-items: center; /* Centra los articulos */
+    gap: 20px; /* Espacio entre articulos */
+    padding: 50px;
+}
+
+section article {
+    box-shadow: 0.3s ease; /* Aplica una transición suave */
+    background-color: #292929;
+    margin: 16px 0; /* se añade margen vertical */
+    border-radius: 8px;
+    padding: 4px 0; /* Espacios */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    color: #e7e7e7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* El hover es un estilo que se aplica cuando el cursor pasa por encima */
+section article:hover {
+    box-shadow: 0 1.6px 6.4px #292929; /* Aplica estilo de sombra cuando pasas por encima */
+}
+
+section article h2, section article p {
+    margin: 16px;
+}
+
+footer {
+    background-color: #292929;
+    padding: 48px;
+    color: #e7e7e7;
+}
+
+footer div {
+    float: right;
+    margin: 0;
+}
+
+footer a {
+    transition: color 0.3s ease;
+    color: #e7e7e7;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: chartreuse;
+}
+
+footer p {
+    margin: 0; /* En este caso para alinear los elementos con footer div */
+}
+
+header {
+    background-color: #292929;
+    padding: 1px;
+}
+
+header h1 {
+    color: #e7e7e7;
+    padding-left: 40px;
+}
+
